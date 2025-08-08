@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --secColor: #ffffff;
+  --bgColor: #4a6cf7;
 }
 
 @theme inline {
@@ -16,11 +18,56 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --secColor: #171717;
+    --bgColor: #ffffff;
   }
 }
 
 body {
-  background: var(--background);
+  /* background: rgb(0, 23, 41); */
   color: var(--foreground);
+  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+.light-theme{
+  --background: #ffffff;
+  --foreground: #171717;
+  --secColor: #ffffff;
+  --tertColor: #ffffff;
+  --bgColor: #ffffff;
+  --txtColor: #5e5f60;
+  --invert: 0;
+  --invert2: 1;
+}
+.dark-theme{
+  --background: rgb(0, 23, 41);
+  --foreground: #ededed;
+  --secColor: #020617;
+  --tertColor: #314158;
+  --bgColor: #ffffff;
+  --txtColor: #ffffff;
+  --invert: 1;
+  --invert2: 0;
+}
+
+.navbar{
+  background: var(--secColor);
+}
+.btn{
+  color: var(--bgColor);
+}
+#toggle{
+  filter: invert(var(--invert));
+}
+.invertLogo{
+  filter: invert(var(--invert2));
+}
+.textColor{
+  color: var(--txtColor);
+}
+.main{
+  background: var(--tertColor);
+}
+.no-scroll{
+  overflow: hidden;
 }
