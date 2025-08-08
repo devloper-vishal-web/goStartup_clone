@@ -21,7 +21,7 @@ const about = () => {
                 </div>
                 <div className=' p-5 my-10 md:w-1/2'>
                     <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>We are Creative Digital Agency Based in USA </h1>
-                    <p className='my-8 text-slate-500 text-base'>Discover the innovative features that set us apart from the competition and make us the best choice for your needs. It's time to experience the difference.</p>
+                    <p className="my-8 text-slate-500 text-base">Discover the innovative features that set us apart from the competition and make us the best choice for your needs. It&apos;s time to experience the difference.</p>
                     <p className='my-8 text-slate-500 text-base'>Phasellus ex massa, facilisis ac vestibulum eget, ultrices quis nulla. Integer vitae magna lacus. Sed venenatis auctor dolor. </p>
                     <p className='my-8 text-slate-500 text-base'>Phasellus ex massa, facilisis ac vestibulum eget, ultrices quis nulla. Integer vitae magna lacus. Sed venenatis auctor dolor. </p>
                 </div>
