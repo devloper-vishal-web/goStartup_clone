@@ -76,11 +76,11 @@ const about = () => {
                 <p className='my-8 text-slate-500 text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus. </p>
             </div>
             <div className="users flex justify-around items-center mx-3 sm:mx-14  md:mx-24 my-12 md:my-16 flex-wrap">
-                <img src="https://go-tailwind.preview.uideck.com/src/images/brands/uideck.svg" alt="" />
-                <img src="https://go-tailwind.preview.uideck.com/src/images/brands/tailadmin.svg" alt="" />
-                <img src="https://go-tailwind.preview.uideck.com/src/images/brands/graygrids.svg" alt="" />
-                <img src="https://go-tailwind.preview.uideck.com/src/images/brands/lineicons.svg" alt="" />
-                <img src="https://go-tailwind.preview.uideck.com/src/images/brands/plainadmin.svg" alt="" />
+                <Image width={151} height={111} src="https://go-tailwind.preview.uideck.com/src/images/brands/uideck.svg" alt="" />
+                <Image width={151} height={111} src="https://go-tailwind.preview.uideck.com/src/images/brands/tailadmin.svg" alt="" />
+                <Image width={151} height={111} src="https://go-tailwind.preview.uideck.com/src/images/brands/graygrids.svg" alt="" />
+                <Image width={151} height={111} src="https://go-tailwind.preview.uideck.com/src/images/brands/lineicons.svg" alt="" />
+                <Image width={151} height={111} src="https://go-tailwind.preview.uideck.com/src/images/brands/plainadmin.svg" alt="" />
             </div>
             <div className="underline border-1 border-slate-800 w-[95vw] mx-auto my-16"></div>
         </div>

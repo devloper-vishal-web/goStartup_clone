@@ -64,7 +64,7 @@ const footer = () => {
           <li>Support</li>
         </ul>
         <div className="underline border-1  border-slate-800 w-[95vw] mx-auto my-5 md:hidden"></div>
-        <span className='text-slate-500'>© 2025 Startup. All rights reserved </span>
+        <span className='&copy text-slate-500'>© 2025 Startup. All rights reserved </span>
       </div>
     </div>
   )
