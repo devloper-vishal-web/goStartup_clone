@@ -6,10 +6,10 @@ import { FaFacebookF, FaGithub } from 'react-icons/fa6';
 import Footer from '../support/footer';
 
 const SignIn = () => {
-  const [name, setName] = useState("");
-  const [retypePassword, setRetypePassword] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState([]);
+  const [retypePassword, setRetypePassword] = useState([]);
+  const [email, setEmail] = useState([]);
+  const [password, setPassword] = useState([]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
